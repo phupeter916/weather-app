@@ -19,7 +19,7 @@ window.addEventListener('load', ()=> {
             lat = position.coords.latitude;
 
             //proxy lets us fetch data even in lost host
-            const proxy =`http://cors-anywhere.herokuapp.com/`;
+            const proxy =`https://cors-anywhere.herokuapp.com/`;
             const api = `${proxy}https://api.darksky.net/forecast/08a0969e8cfcda296713f1b643d8c379/${lat},${long}`;
 
         //getthing information from the URL API
